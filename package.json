@@ -1,7 +1,6 @@
 {
   "name": "css-frameworks-ca",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "sass src/scss:dist/css",
@@ -16,5 +15,14 @@
   },
   "dependencies": {
     "bootstrap-dark-5": "^1.1.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lysaker-git/social-media-client-workflowCA.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Lysaker-git/social-media-client-workflowCA/issues"
+  },
+  "homepage": "https://github.com/Lysaker-git/social-media-client-workflowCA#readme",
+  "description": ""
 }
