@@ -18,6 +18,7 @@ describe('login', () => {
             .click()
         cy.get('#loginForm')
             .should('be.visible')
+        cy.wait(2000)
     })
     it('logs user in after right credentials', () => {
         cy.get("#loginEmail").within(() => {
