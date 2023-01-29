@@ -22,7 +22,7 @@ CA for Noroff with testing a workflow setup
 
 * Clone repo: 
 ```bash
-git clone => branch is workflow => https://github.com/VaNomad/social-media-client-ca.git
+git clone => branch is workflow => [https://github.com/VaNomad/social-media-client-ca.git](https://github.com/Lysaker-git/social-media-client-workflowCA.git)
 ```
 * Install Dependencies:
 ```bash
