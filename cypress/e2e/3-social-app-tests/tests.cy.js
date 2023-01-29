@@ -6,7 +6,7 @@ const wrongPass = ".!129--"
 
 describe('login', () => {
     beforeEach(() => {
-        cy.visit('http://127.0.0.1:5500/index.html')
+        cy.visit('https://lysaker-git.github.io/social-media-client-workflowCA/')
         cy.wait(1000)
         cy.get('#registerForm').within(() => {
             cy.get('[data-bs-dismiss="modal"]')
