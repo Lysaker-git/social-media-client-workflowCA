@@ -54,9 +54,8 @@ describe('login', () => {
         })
         cy.wait(2000)
         cy.get('[data-auth="logout"]').click()
-        cy.location().should((loc) => {
-            expect(loc.href).to.not.include('profile')
-        })
+        cy.wait(2000)
+        expect(localStorage.getItem("token")).to.eq(null)
     })
     it('can not log in with the wrong credentials', () => {
         cy.get("#loginEmail").within(() => {
